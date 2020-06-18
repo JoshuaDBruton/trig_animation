@@ -61,5 +61,7 @@ def animation_frame(i):
 
     return
 
-animation = FuncAnimation(fig, func=animation_frame, frames=np.arange(0,360,1), interval=1)
+animation = FuncAnimation(fig, func=animation_frame, frames=np.arange(0,360,2), interval=20)
+# Use the following line to save the animation with imagemagick
+# animation.save('animation.gif', writer='imagemagick', fps=60)
 plt.show()

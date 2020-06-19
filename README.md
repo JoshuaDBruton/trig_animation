@@ -14,4 +14,4 @@ Which should produce the following animation:
 ```
 # animation.save('animation.gif', writer='imagemagick', fps=60)
 ```
-will allow you to save you own .gif files.
+will allow your to save you own .gif files.
